@@ -1,0 +1,33 @@
+            *{  
+                margin: 0;
+                padding: 0;
+                
+            }
+            body{
+                font-family: 'Times New Roman', Times, serif;
+                line-height: 1.5;
+            }
+            a{
+                text-decoration: none;
+            }
+            li{
+                list-style: none;
+            }
+
+            /* The Header Section */
+            .header--section{
+                background-color: black;
+                color: white;
+                gap: 20px;
+            }
+            .header--section .left #navbar{
+                display: flex;
+            }
+            .header--section .left #navbar li{
+                padding: 20px;
+            }
+
+            /* The Body Section */
+            section #the_body_part{
+                height: 100dvh;
+            }
