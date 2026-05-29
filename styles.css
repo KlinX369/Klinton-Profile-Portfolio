@@ -9,6 +9,7 @@
             }
             a{
                 text-decoration: none;
+                color: white;
             }
             li{
                 list-style: none;
@@ -16,15 +17,43 @@
 
             /* The Header Section */
             .header--section{
-                background-color: black;
-                color: white;
+                background-color: rgb(63, 62, 62);
+                color: whitesmoke;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+                    /* left side */
+            .header--section .left{
+                display: flex;
+                align-items: center;
                 gap: 20px;
             }
-            .header--section .left #navbar{
+            .header--section .left #navbar {
                 display: flex;
+                padding: 20px;
             }
             .header--section .left #navbar li{
-                padding: 20px;
+                /*padding: 10px; */
+                padding: 0% 10px;
+                justify-content: space-between;
+
+            }
+                /* right side */
+            .header--section .right{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+            .header--section .right img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            .header--section .right span{
+                font-size: 20px;
+                font-weight: bold;
+                color: blue;
             }
 
             /* The Body Section */
