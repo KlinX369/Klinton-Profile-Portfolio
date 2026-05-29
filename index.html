@@ -19,11 +19,11 @@
         <div class="header--section">
             <div class="left">
                 <ul id="navbar">
-                   <li><a href="#" target="_self">HOME</a></li>
-                   <li><a href="#" target="self">ABOUT</a></li>
-                    <li><a href="#" target="self">PROJECTS</a></li>
+                   <li><a href="#">HOME</a></li>
+                   <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PROJECTS</a></li>
                     <li><a href="#">TESTIMONIALS</a></li>
-                    <li><a href="#" target="self">CONTACT</a></li>
+                    <li><a href="#" >CONTACT</a></li>
                 </ul> 
             </div>
             <div class="right">
@@ -80,10 +80,10 @@
                     <h3>Educational Background</h3>
                         <table>
                             <thead>
-                                <tr>INSTITUTION</tr>
-                                <tr>YEARS</tr>
-                                <tr>COURSE</tr>
-                                <tr>AWARD OF COMPLETION</tr> <!--Can add link to download certificates to verify-->
+                                <td>INSTITUTION</td>
+                                <td>YEARS</td>
+                                <td>COURSE</td>
+                                <td>AWARD OF COMPLETION</td> <!--Can add link to download certificates to verify-->
                             </thead>
                             <tbody>
                                 <tr>
@@ -122,8 +122,9 @@
                             </tbody>
                         </table>
                 </div>
-
-                <div class="timeline">
+                   <h1>EXPERIENCE</h1>
+                <div class="timeline"> 
+ 
 
     <div class="timeline-item">
         <div class="timeline-dot"></div>
@@ -217,9 +218,9 @@
                 <!--Skills and Hobbies-->
                 <div class="skills--hobbies">
                     <div class="skills">
-                        <h3>Skills</h3>
-                        <ul>
-                            <li>Python Coding</li>
+                        <h3>SKILLS</h3>
+                        <ol>
+                            <li> Python Coding</li>
                             <li>AI Automations</li>
                             <li>UI/UX Design</li>
                             <li>Google Apps: docs, sheets etc</li>
@@ -227,17 +228,17 @@
                             <li>Graphic Designs</li>
                             <li>Creative Essay writing and books</li>
                             <li>Creative usage of Microsoft Packages</li>
-                        </ul>
+                        <ol>
                     </div>
                     <div class="hobbies">
-                        <h3>Hobbies</h3>
-                        <ul>
+                        <h3>HOBBIES</h3>
+                        <ol>
                             <li>Exploring AI and Science</li>
                             <li>Reading & Writing Essays/Books. </li>
                             <li>Coding</li>
                             <li>Sketch Drawing</li>
                             <li>Playing Chess</li>
-                        </ul>
+                        </ol>
                     </div>
                 </div>  
             </div>
@@ -281,29 +282,33 @@
             <!--CONTACT SECTION-->
             <div class="contacts">
                 <div class="personal_contact">
-                    <li><i class="fa-solid fa-phone"></i><a href="tel: 254785370146">254 785 370 146</a></li>
-                    <li><i class="fa-solid fa-location-dot"></i><a href="#">Nairobi, Kenya</a></li>
-                    <li><i class="fa-brands fa-whatsapp"></i><a href="wa.me/25478370146">WhatsApp Me</a></li>
-                    <li><i class="fa-solid fa-envelope"></i><a href="mailto: lukaklin369@gmail.com">lukaklin369@gmail.com</a></li>
-                    <li><i class="fa-brands fa-linkedin"></i><a href="linkedin.com">LinkedIn Account</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i><a href="#" style="font-size: 1rem;">Nairobi, Kenya</a></li>
+                    <li><i class="fa-solid fa-phone"></i><a href="tel: 254785370146"></a></li>
+                    <li><i class="fa-brands fa-whatsapp"></i><a href="wa.me/25478370146"></a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="mailto: lukaklin369@gmail.com"></a></li>
+                    <li><i class="fa-brands fa-linkedin"></i><a href="linkedin.com"></a></li>
                 </div>
                 <div class="client_reach_out">
                     <form action="">
                         <fieldset>
-                            <legend>PERSONAL DETAILS</legend>
+                            <!--Commented the Legend name -->
+                            <!--<legend>PERSONAL DETAILS</legend>-->
                                 <label for="name">Names in full: </label>
                                 <input type="text" placeholder="Klinton Luka" required> <br>
                                 
                                 <label for="gender">Gender: </label>
-                                <input type="radio" name="gender" for="male" required>MALE 
-                                <input type="radio" name="gender" for="female" required>FEMALE  
-                                <input type="radio" name="gender" for="other" required>Rather Not mention  <br>
+                                <select name="gender" id="gender" required style="color: green;">
+                                    <option value="" disabled selected>Choose an option</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
 
                                 <label for="DOB">Date of Birth: </label>
                                 <input type="date" required> <br>
 
                                 <label for="nationality">Nationality: </label>
-                                    <select name="nationality" id="" required>
+                                    <select name="nationality" id="" required style="color: green;">
                                         <option value="Sudan">Sudan</option>
                                         <option value="SSD">South Sudan</option>
                                         <option value="rwanda">Rwanda</option>
@@ -344,10 +349,10 @@
             <div class="social_icons">
                 <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com"></a></i>
                 <i class="fa-brands fa-facebook"><a href="https://www.facebook.com"></a></i>
-                <i class="fa-brands fa-x-twitter"><a href="https://www.x.com"></a></i>
+                <i class="fa-brands fa-x-twitter" style="color: white;"><a href="https://www.x.com"></a></i>
                 <i class="fa-brands fa-telegram"><a href="https://telegram.org"></a></i>
-                <i class="fa-brands fa-youtube"><a href="https://youtube.com"></a></i>
-                <i class="fa-brands fa-tiktok"><a href="https://tiktok.com"></a></i>
+                <i class="fa-brands fa-youtube" style="color: red;"><a href="https://youtube.com"></a></i>
+                <i class="fa-brands fa-tiktok" style="color: rgb(179, 172, 172);"><a href="https://tiktok.com"></a></i>
             </div>
         </div>
 </body>
