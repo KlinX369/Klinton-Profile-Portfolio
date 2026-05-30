@@ -40,7 +40,6 @@
                 padding: 20px;
             }
             .header--section .left #navbar li{
-                /*padding: 10px; */
                 padding: 0% 10px;
                 justify-content: space-between;
 
@@ -64,8 +63,24 @@
 
             /* Media Queries for different devices */
             @media (max-width: 768px){
+                .header--section .left, #navbar{
+                    width: 100%;
+                    gap: 10px;
+                    padding: 10px;
+                }
+                .header--section .left #navbar li{
+                    padding: 10px;
+                }
                 .header--section .right{
                     display: none;
+                }
+                .contacts{
+                    i{
+                        font-size: 10px;
+                    }
+                }
+                .social_icons{
+                    display: block;
                 }
             }
 
