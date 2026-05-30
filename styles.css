@@ -63,23 +63,38 @@
 
             /* Media Queries for different devices */
             @media (max-width: 768px){
-                .header--section .left, #navbar{
+                .header--section .left{
                     width: 100%;
-                    gap: 10px;
-                    padding: 10px;
+                    font-size: 0.7rem;
                 }
                 .header--section .left #navbar li{
                     padding: 10px;
                 }
                 .header--section .right{
-                    display: none;
+                    display: none; 
+                    /*
+                    gap: 10px;
+                }
+                .header--section .right{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%; */
+                }
+                .education{
+                    max-width: 100dvw;
+                }
+                .education h3{
+                    font-size: 0.9rem;
+                }
+                .education table{
+                    max-width: 95%;
                 }
                 .contacts{
                     i{
                         font-size: 10px;
                     }
                 }
-                .social_icons{
+                .social_icons i{
                     display: block;
                 }
             }
