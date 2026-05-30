@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="dashboard.png">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image-x/icon" href="Luka.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="Luka.png">
+    <meta name="author" content="Klinton Luka">
+    <meta name="og:title" content=" Software Engineer">
+    <meta name="description" content="This is my portfolio showcasing my achievements and personal bio and my path career as a software engineer.">
+
+    
 </head>
 <body>
     <!--Reminders||||||||||
@@ -19,11 +28,11 @@
         <div class="header--section">
             <div class="left">
                 <ul id="navbar">
-                   <li><a href="#">HOME</a></li>
-                   <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">TESTIMONIALS</a></li>
-                    <li><a href="#" >CONTACT</a></li>
+                   <li><a href="#home">HOME</a></li>
+                   <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#testimonials">TESTIMONIALS</a></li>
+                    <li><a href="#contact" >CONTACT</a></li>
                 </ul> 
             </div>
             <div class="right">
@@ -35,7 +44,7 @@
         <!--THE BODY SECTION OF THE PORTFOLIO-->
         <section id="the_body_part">
             <!--THE HOME SECTION-->
-            <div class="home_info">
+            <div class="home_info" id="home">
                 <div class="personal_bio">
                     <h1>I am <span style="color: rgb(0, 255, 76);">Klinton Luka</span></h1>
                     <p>Hi, I'm Kilinton — a Software Engineering graduate who builds full-stack solutions 
@@ -46,7 +55,7 @@
                         Clean code. Real impact.
                     </p>
                     <div class="buttons">
-                        <button type="submit"><i class="fa-solid fa-share"></i>  CONNECT</button>
+                        <button type="submit"><a href="#contact" style="color: black;"><i class="fa-solid fa-share"></i>  CONNECT</a></button>
                         <button type="submit"><i class="fa-brands fa-github"></i> VIEW WORKS</button>
                     </div>
                 </div>
@@ -58,7 +67,7 @@
             </div>
 
             <!--THE ABOUT ME SECTION-->
-            <div class="about_me">
+            <div class="about_me" id="about">
                 <div class="about_intro">
                     <h1>About Me</h1>
                     <p>
@@ -71,13 +80,13 @@
                     I combine logic with imagination. Clean databases. Smooth frontends. Creative workflows.
                     If it solves a problem — I build it.
                 </p> 
-                <button><a href="#" dowload><i class="fa-solid fa-download"></i> DOWNLOAD RESUME</a></button>
+                <button><a href="KILINTON_CV.pdf" dowload><i class="fa-solid fa-download"></i> DOWNLOAD RESUME</a></button>
                 </div>
                 
 
                 <!--Educational Background-->
                 <div class="education">
-                    <h3>Educational Background</h3>
+                    <h1>EDUCATIONAL BACKGROUND</h1>
                         <table>
                             <thead>
                                 <td>INSTITUTION</td>
@@ -91,8 +100,8 @@
                                     <td>2026 - 2027 </td>
                                     <td>MERN Fullstack Development & AI Engineering</td>
                                     <td>Capstone projects:
-                                        <li>Banking System + AI Automation<a href="view">View</a></li>
-                                        <li>English Letter - Word Dictionary <a href="view">View</a></li>
+                                            <li>Banking System + AI Automation<a href="view">View</a></li> <br>
+                                            <li>English Letter - Word Dictionary <a href="view">View</a></li>
                                     </td>
                                 </tr>
                                 <tr>
@@ -244,10 +253,10 @@
             </div>
 
             <!--PROJECTS SECTION-->
-            <div class="projects_wrapper">
+            <div class="projects_wrapper" id="projects">
               <div class="first_project">
                 <h3>INTERVIEW PREP APP</h3>
-                <img src="" alt="Interview Prep App Logo">
+                <img src="KlinAI Interviews.png" alt="Interview Prep App Logo">
                 <p>This is an AI-Powered application that enables you practise for interviews. 
                     It is <b>99.5% accurate</b> by evaluating responses, web search about positions and organizations and provide sample responses based on your info like CV and experience.
                     It is ensures 100% confidentiality and data privacy using the end-to-end encrypted technology. 
@@ -257,8 +266,8 @@
               </div>  
 
               <div class="second_project">
-                <h3>SIMPLILEARN</h3>
-                <img src="" alt="SimpliLearn Apps Logo">
+                <h3>EASYLEARN</h3>
+                <img src="EasyLearn.png" alt="SimpliLearn Apps Logo">
                 <p>This is an AI-powered free app to simplify learning. It uses the special Pomodoro and Feynmann's learning techniques that makes concepts memorable and understood easily. 
                     This is achieved through: Mindmaps, Sketchs, Mnemonics, Songs, Deep Research, Flowcharts, Short skits. Later, automatic flashcards on each concepts are generated for evaluations.
                     <br>
@@ -275,12 +284,12 @@
             </div>
 
             <!--CLIENT'S TESTIMONIALS-->
-            <div class="clients_wrapper">
+            <div class="clients_wrapper" id="testimonials">
 
 
             </div>
             <!--CONTACT SECTION-->
-            <div class="contacts">
+            <div class="contacts" id="contact">
                 <div class="personal_contact">
                     <li><i class="fa-solid fa-location-dot"></i><a href="#" style="font-size: 1rem;">Nairobi, Kenya</a></li>
                     <li><i class="fa-solid fa-phone"></i><a href="tel: 254785370146"></a></li>
@@ -333,7 +342,7 @@
                                 <input type="tel" placeholder="+254785370146" required> <br>
 
 
-                                <label for="client_feedback"> Feedback:</label>
+                                <label for="client_feedback"> Message:</label>
                                 <textarea name="message" id="message" rows="4" cols="40" placeholder="leave your message..."></textarea><br>
 
 
@@ -353,6 +362,16 @@
                 <i class="fa-brands fa-telegram"><a href="https://telegram.org"></a></i>
                 <i class="fa-brands fa-youtube" style="color: red;"><a href="https://youtube.com"></a></i>
                 <i class="fa-brands fa-tiktok" style="color: rgb(179, 172, 172);"><a href="https://tiktok.com"></a></i>
+            </div>
+            <div class="quick_links">
+                <h3 style="color: green;">QUICK LINKS</h3>
+              <ul>
+                   <li><a href="#home">HOME</a></li>
+                   <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#testimonials">TESTIMONIALS</a></li>
+                    <li><a href="#contact" >CONTACT</a></li>
+                </ul>   
             </div>
         </div>
 </body>
