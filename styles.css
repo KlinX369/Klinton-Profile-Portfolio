@@ -56,6 +56,11 @@
                 height: 50px;
                 border-radius: 50%;
             }
+            .header--section .right img:hover{
+                border: 1px solid white;
+                border-radius: 50%;
+                
+            }
             .header--section .right span{
                 font-size: 20px;
                 font-weight: bold;
@@ -149,6 +154,10 @@
                 cursor: pointer;
                 border-radius: 5px;
             }
+            .home_info .personal_bio .buttons button:hover{
+                background-color: rgb(23, 228, 228);
+                font-weight: bolder;
+            }
             .home_info .personal_image{
                 flex: 1 1 280px;
                 display: flex;
@@ -161,6 +170,11 @@
                 height: auto;
                 max-height: 450px;
                 object-fit: cover;
+            }
+            .personal_image img:hover{
+                transform: scale(1.05);
+                border: 1px solid white;
+                transition: all 2s;
             }
             .timeline {
                 position: relative;
@@ -471,6 +485,7 @@
             }
             .social_icons{
                 display: flex;
+                margin-top: 20px;
                 gap: 30px;
                 justify-content: space-around;
             }
