@@ -1,0 +1,114 @@
+[33m0f56d0a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m links
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[33md258282[m Some links
+ Klinton_RecentRead.mp4 | Bin [31m222663755[m -> [32m0[m bytes
+ index.html             |   6 [32m+++[m[31m---[m
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+[33m5e44b71[m Increased the font-size of 'i'
+ styles.css | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[33md428bd8[m Removed the Accepted.mp4
+ Accepted.mp4 | Bin [31m721597277[m -> [32m0[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+[33m621ccb5[m Removed video
+ index.html | 8 [32m++++[m[31m----[m
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[33m724bd59[m Restored Images
+ Akon.jpg | Bin [31m0[m -> [32m407852[m bytes
+ Naja.jpg | Bin [31m0[m -> [32m199368[m bytes
+ San.jpg  | Bin [31m0[m -> [32m341091[m bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+[33m137d0cf[m Added personal poem
+ Akon.jpg   | Bin [31m407852[m -> [32m0[m bytes
+ Naja.jpg   | Bin [31m199368[m -> [32m0[m bytes
+ San.jpg    | Bin [31m341091[m -> [32m0[m bytes
+ index.html |   1 [32m+[m
+ poem.png   | Bin [31m0[m -> [32m1356286[m bytes
+ 5 files changed, 1 insertion(+)
+[33m954bd61[m added a whatsapp pre-filled message
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[33m4a69a13[m Chess.com URL
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[33m775dd28[m Added personal video on books | Added an inspiring movie to me
+ Accepted.mp4           | Bin [31m0[m -> [32m721597277[m bytes
+ Klinton_RecentRead.mp4 | Bin [31m0[m -> [32m222663755[m bytes
+ index.html             |   5 [32m+++[m[31m--[m
+ 3 files changed, 3 insertions(+), 2 deletions(-)
+[33mca94b56[m Colors
+ styles.css | 8 [32m++++++[m[31m--[m
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+[33meb0f8f3[m Added the colors to the icons
+ index.html | 20 [32m++++++++++[m[31m----------[m
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+[33ma5a0e31[m Initialized real URLs
+ index.html | 8 [32m++++[m[31m----[m
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[33me9bc896[m Added URLs
+ index.html | 6 [32m+++[m[31m---[m
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[33m39549b7[m Modifications made on CSS and mostly the hovers
+ index.html |   8 [32m+[m[31m--[m
+ styles.css | 178 [32m++++++++++++++++++++++++++++++++++++[m[31m-------------------------[m
+ 2 files changed, 108 insertions(+), 78 deletions(-)
+[33mb6785f5[m[33m ([m[1;31morigin/master[m[33m)[m Modified the head meta for image display
+ index.html | 10 [32m++++++++++[m
+ 1 file changed, 10 insertions(+)
+[33m9cb9584[m Added testimonials section
+ Akon.jpg   | Bin [31m0[m -> [32m407852[m bytes
+ Naja.jpg   | Bin [31m0[m -> [32m199368[m bytes
+ San.jpg    | Bin [31m0[m -> [32m341091[m bytes
+ index.html |  60 [32m++++++++++++++++++++++++++++++++++++++++++++++[m[31m--[m
+ styles.css |  76 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ 5 files changed, 133 insertions(+), 3 deletions(-)
+[33ma0fbbca[m Added changes to CSS and also blanked the 'LUKA' in the header span
+ index.html |  2 [32m+[m[31m-[m
+ styles.css | 13 [32m+++++++++[m[31m----[m
+ 2 files changed, 10 insertions(+), 5 deletions(-)
+[33m76eb944[m Moved table to center | Social Icons adjusted
+ styles.css | 17 [32m++++++++++[m[31m-------[m
+ 1 file changed, 10 insertions(+), 7 deletions(-)
+[33m27e4860[m Modified CSS | Responsiveness
+ styles.css | 25 [32m++++++++++++++++++++[m[31m-----[m
+ 1 file changed, 20 insertions(+), 5 deletions(-)
+[33m6f68531[m Edited CSS to improve responsiveness of the website
+ index.html |  4 [32m++[m[31m--[m
+ styles.css | 17 [32m++++++++++++++++[m[31m-[m
+ 2 files changed, 18 insertions(+), 3 deletions(-)
+[33m01b0e81[m Added files and modified CSS
+ EasyLearn.png         | Bin [31m0[m -> [32m918378[m bytes
+ KILINTON_CV.pdf       | Bin [31m97712[m -> [32m144940[m bytes
+ KlinAI Interviews.png | Bin [31m0[m -> [32m984313[m bytes
+ index.html            |  57 [32m+++++++++++++++++++++++++++++++++[m[31m-----------------[m
+ styles.css            |  44 [32m++++++++++++++++++++++++++++[m[31m----------[m
+ 5 files changed, 71 insertions(+), 30 deletions(-)
+[33m949efac[m The CSS styling changes
+ index.html |  65 [32m++++++++++++++++++++[m[31m-----------------[m
+ styles.css | 107 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m------[m
+ 2 files changed, 133 insertions(+), 39 deletions(-)
+[33m9e024b1[m A lot have been modified
+ Background.jpg | Bin [31m0[m -> [32m19600[m bytes
+ bg.jpg         | Bin [31m0[m -> [32m106834[m bytes
+ index.html     |  69 [32m+++++++++++++++[m[31m---[m
+ styles.css     | 219 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 4 files changed, 279 insertions(+), 9 deletions(-)
+[33me26d60d[m The shift in image positions, and other editing
+ index.html |  8 [32m+++++[m[31m---[m
+ styles.css | 59 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 2 files changed, 64 insertions(+), 3 deletions(-)
+[33mc456ecb[m Changes made
+ index.html |  4 [32m++[m[31m--[m
+ styles.css | 37 [32m+++++++++++++++++++++++++++++++++[m[31m----[m
+ 2 files changed, 35 insertions(+), 6 deletions(-)
+[33m49d4463[m Added more files to the first one
+ KILINTON_CV.pdf | Bin [31m0[m -> [32m97712[m bytes
+ Luka.png        | Bin [31m0[m -> [32m1817039[m bytes
+ Profile_Pic.png | Bin [31m0[m -> [32m1880875[m bytes
+ index.html      |  69 [32m++++++++++++++++[m[31m----------------------------------------[m
+ styles.css      |  33 [32m+++++++++++++++++++++++++++[m
+ 5 files changed, 53 insertions(+), 49 deletions(-)
+[33mec951e8[m This is my first HTML commit
+ index.html | 330 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 330 insertions(+)
