@@ -44,6 +44,11 @@
                 justify-content: space-around;
 
             }
+            #navbar a:hover,.quick_links li a:hover {
+                background-color: #00ff4c;
+                padding: 5px;
+            }
+
                 /* right side */
             .header--section .right{
                 display: flex;
@@ -333,6 +338,7 @@
                 gap: 20px;
                 flex-wrap: wrap;
                 margin-top: 40px;
+                justify-content: space-around;
             }
             .projects_wrapper > div {
                 flex: 1 1 300px;
@@ -344,6 +350,7 @@
                 transition: all 0.25s ease;
                 position: relative;
                 overflow: hidden;
+                max-width: 95%;
             }
             .projects_wrapper > div:hover {
                 transform: translateY(-6px);
